@@ -1,0 +1,41 @@
+.navigation {
+  background-color: black;
+  width: 100%;
+  :first-child{
+    display: flex;
+    //position: fixed;
+    margin: 0 auto;
+    #logo {
+      width: 30%;
+      height: 10rem;
+      background-image: url("../images/logo-bwhite.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    #menu {
+      width: 70%;
+      float: right;
+      font-size: 1.5rem;
+      color: white;
+
+
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: right;
+        flex-direction: row;
+        li {
+          background-color: black;
+          padding: 3%;
+          border-radius: 7%;
+          margin: 1%;
+          width: fit-content;
+        }
+      }
+    }
+
+  }
+
+
+}

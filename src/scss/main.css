@@ -1,10 +1,14 @@
 * {
   box-sizing: border-box; }
 
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }
+
 .container {
-  width: 1024px;
-  height: 400px;
-  padding: 20px;
+  width: 1240px;
+  margin: 0 auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -18,15 +22,108 @@
   .main #text {
     font-size: 80px; }
 
-.slideshow {
-  overflow: hidden; }
+.slideShow {
+  height: 500px;
+  overflow: auto; }
 
 #imageSlider {
-  position: relative;
-  height: 280px;
   padding: 0; }
   #imageSlider li {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    max-height: 40%;
     float: left;
     list-style: none; }
+    #imageSlider li img {
+      max-width: 100%;
+      height: auto;
+      opacity: 0.7; }
+
+.about {
+  height: 400px; }
+  .about :first-child {
+    width: 100%;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    margin-top: 5%; }
+  .about :last-child {
+    display: block;
+    width: 100%;
+    height: 100%; }
+    .about :last-child #imgAbout {
+      background-image: url("../images/photo1.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      float: left;
+      width: 30%;
+      height: 50%;
+      padding-top: 25%; }
+    .about :last-child #textAbout {
+      padding-top: 6%;
+      float: left;
+      width: 70%;
+      height: 100%;
+      padding-left: 10%;
+      font-size: 1.2rem; }
+
+.services {
+  margin-top: 5%;
+  height: 400px; }
+  .services :first-child {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center; }
+  .services :last-child {
+    padding-top: 5%;
+    width: 100%;
+    height: 100%; }
+    .services :last-child #imgServices {
+      background-image: url("../images/photo1.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      float: left;
+      width: 30%;
+      height: 50%;
+      padding-top: 15%; }
+    .services :last-child #textServices {
+      float: left;
+      width: 70%;
+      height: 100%;
+      padding-right: 10%;
+      text-align: left; }
+      .services :last-child #textServices ul {
+        list-style: circle;
+        padding: 2%;
+        font-size: 1rem; }
+
+.navigation {
+  background-color: black;
+  width: 100%; }
+  .navigation :first-child {
+    display: flex;
+    margin: 0 auto; }
+    .navigation :first-child #logo {
+      width: 30%;
+      height: 10rem;
+      background-image: url("../images/logo-bwhite.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
+    .navigation :first-child #menu {
+      width: 70%;
+      float: right;
+      font-size: 1.5rem;
+      color: white; }
+      .navigation :first-child #menu ul {
+        list-style: none;
+        display: flex;
+        justify-content: right;
+        flex-direction: row; }
+        .navigation :first-child #menu ul li {
+          background-color: black;
+          padding: 3%;
+          border-radius: 7%;
+          margin: 1%;
+          width: fit-content; }

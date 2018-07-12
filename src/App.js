@@ -3,9 +3,11 @@ import {UnderConstruction} from './js/UnderConstruction.js';
 import "./scss/main.css";
 import {Header} from './js/Header';
 import {Slider} from './js/Slider';
-// import {About} from './js/About';
-// import {Products} from './js/Products';
-// import {Footer} from './js/Footer';
+import {About} from './js/About';
+import {Services} from './js/Services'
+import {Products} from './js/Products';
+import {Contact} from "./js/Contact";
+import {Footer} from './js/Footer';
 
 class App extends Component {
   render() {
@@ -13,8 +15,10 @@ class App extends Component {
         <div>
             <Header/>
             <Slider/>
-            {/*<About/>*/}
+            <About/>
+            <Services/>
             {/*<Products/>*/}
+            <Contact/>
             {/*<Footer/>*/}
         </div>
     )

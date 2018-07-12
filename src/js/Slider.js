@@ -16,7 +16,6 @@ class Slider extends Component{
     }
 
     componentDidMount () {
-        // const that = this;
         let timeID= setInterval( ()=> {
             let current = this.state.currentSlide;
             // current = current +1
@@ -26,15 +25,17 @@ class Slider extends Component{
             this.setState ({
                 currentSlide: current
             })
-        }, 2000);
+        }, 4000);
     }
+
+
 
 
 
     render() {
         console.log(this.state.currentSlide);
         return (
-            <section className="container">
+            <section className="container clearfix">
                 <div id="slideshow">
                     <ul id="imageSlider">
                         {this.state.currentSlide === 0 && <li><img src={a}/></li>}
