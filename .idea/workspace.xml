@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d540fd3-4514-40c4-8b63-a67aa5b6bb80" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/Partials/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Partials/_contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/Partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Partials/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/Partials/_products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Partials/_products.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="1d540fd3-4514-40c4-8b63-a67aa5b6bb80" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -63,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/Partials/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -246,12 +248,12 @@
       <updated>1531316142434</updated>
       <workItem from="1531316143763" duration="16973000" />
       <workItem from="1531408269423" duration="255000" />
-      <workItem from="1531408809579" duration="21418000" />
+      <workItem from="1531408809579" duration="21661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38646000" />
+    <option name="totallyTimeSpent" value="38889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="-11" width="1623" height="1062" extended-state="6" />
@@ -390,13 +392,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/Partials/_procuts.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/Partials/_UnderConstruction.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -538,8 +533,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/Partials/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
         </state>
       </provider>
     </entry>
