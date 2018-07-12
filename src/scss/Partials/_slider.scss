@@ -1,0 +1,16 @@
+.slideshow {
+  overflow: hidden;
+}
+
+#imageSlider {
+  position: relative;
+  height: 280px;
+  padding: 0;
+  li {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    list-style: none;
+
+  }
+}

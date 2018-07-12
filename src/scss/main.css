@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box; }
+
+.container {
+  width: 1024px;
+  height: 400px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh; }
+  .main #text {
+    font-size: 80px; }
+
+.slideshow {
+  overflow: hidden; }
+
+#imageSlider {
+  position: relative;
+  height: 280px;
+  padding: 0; }
+  #imageSlider li {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    list-style: none; }
