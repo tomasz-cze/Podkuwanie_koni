@@ -4,8 +4,8 @@ class Services extends Component{
     render (){
         return (
             <section className='services container clearfix'>
-                <div>Usługi</div>
-                <div>
+                <div className='sectionHeader'>Usługi</div>
+                <div id='servicesContent'>
                     <div id='textServices'>
                       <ul>W naszej ofercie znajdziecie Państwo następujące usługi:
                           <li>Lorem</li>

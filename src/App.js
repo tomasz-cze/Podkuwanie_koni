@@ -17,7 +17,7 @@ class App extends Component {
             <Slider/>
             <About/>
             <Services/>
-            {/*<Products/>*/}
+            <Products/>
             <Contact/>
             {/*<Footer/>*/}
         </div>
