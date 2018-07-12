@@ -1,0 +1,23 @@
+.contact {
+  height: 300px;
+
+  :last-child{
+    width: 100%;
+    height: 100%;
+    #contactForm {
+      width: 50%;
+      height: 100%;
+      form {
+        input {
+          width: 100%;
+        }
+      }
+    }
+
+    #contactDescription {
+      width: 50%;
+      height: 100%;
+
+    }
+  }
+}

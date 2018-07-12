@@ -1,7 +1,7 @@
 .navigation {
   background-color: black;
   width: 100%;
-  :first-child{
+  & div:first-child{
     display: flex;
     //position: fixed;
     margin: 0 auto;
@@ -21,15 +21,15 @@
 
 
       ul {
+        margin-top: 4%;
+        float: right;
         list-style: none;
         display: flex;
         justify-content: right;
         flex-direction: row;
         li {
           background-color: black;
-          padding: 3%;
-          border-radius: 7%;
-          margin: 1%;
+          padding: 2%;
           width: fit-content;
         }
       }
