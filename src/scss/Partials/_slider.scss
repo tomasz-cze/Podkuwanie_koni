@@ -3,9 +3,11 @@
   overflow: auto;
 }
 
+
 #imageSlider {
   padding: 0;
   li {
+    display: none;
     width: 100%;
     max-height: 40%;
     float: left;
@@ -17,3 +19,9 @@
     }
   }
 }
+
+#imageSlider .show {
+  display: inline-block;
+}
+
+

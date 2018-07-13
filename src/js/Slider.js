@@ -28,11 +28,8 @@ class Slider extends Component{
         }, 4000);
     }
 
-
-
-
-
     render() {
+
         console.log(this.state.currentSlide);
         return (
             <section className="container clearfix">

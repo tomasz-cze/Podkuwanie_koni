@@ -79,6 +79,7 @@ table {
 #imageSlider {
   padding: 0; }
   #imageSlider li {
+    display: none;
     width: 100%;
     max-height: 40%;
     float: left;
@@ -87,6 +88,9 @@ table {
       max-width: 100%;
       height: auto;
       opacity: 0.7; }
+
+#imageSlider .show {
+  display: inline-block; }
 
 .about {
   height: 400px; }
