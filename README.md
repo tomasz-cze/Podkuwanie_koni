@@ -1,4 +1,4 @@
-https://tomasz-cze.github.io/Podkuwanie_koni
+
 
 Website created in React JS.
 
